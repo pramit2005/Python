@@ -1,1 +1,1 @@
-# This are my college(CEMK) python assignments
+# This is where I post my progess on python
