@@ -11,7 +11,6 @@ def binary_search(l,left,right,x):
             return binary_search(l,mid+1,right,x)
         elif l[mid]>x:
             return binary_search(l,left,mid-1,x)
-a = []
 a = list(map(int, input("Enter the data: ").split()))
 a.sort()
 n=len(a)
