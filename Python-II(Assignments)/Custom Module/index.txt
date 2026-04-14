@@ -1,0 +1,10 @@
+Q1:temperature.py,temp_conv.py
+Q2:math1.py,calculator.py
+Q3:bill.py,shop.py
+Q4:std_record.py,student.py
+Q5:file.py,file_handling.py
+Q6:interest.py,interest_cal.py
+Q7:stat_mod.py,stat_cal.py
+Q8:str.py,str_handling.py
+Q9:search.py,list_search.py
+Q10:geometry(package),main.py

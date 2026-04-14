@@ -1,1 +1,1 @@
-# This is where I post my progess on python
+# This is where I post my progress on python
