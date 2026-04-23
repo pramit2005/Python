@@ -1,0 +1,12 @@
+Q1:email_validation.py
+Q2:number_validation.py
+Q3:extract_capital.py
+Q4:
+Q5:date_extraction.pyQ6:space_extractor.py
+Q7:domain_extraction.py
+Q8:sentence_extractor.py
+Q9:hashtag_extraction.py
+Q10:special_character_ext.py
+Q11:IP_validation.py
+Q12:tag_extractor.py
+Q13:number_extraction.py
