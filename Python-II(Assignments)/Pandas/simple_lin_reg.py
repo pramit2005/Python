@@ -13,4 +13,4 @@ X_train_t=X_train.T
 B=np.linalg.inv(X_train_t@X_train)
 B=B@(X_train_t@y_train)
 y_pred=X_test@B
-print(f'Accuracy:{r2_score(y_test,y_pred)}')
+print(f'R2 score:{r2_score(y_test,y_pred):.2f}')
