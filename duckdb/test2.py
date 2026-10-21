@@ -1,6 +1,8 @@
-import duckdb
-import pandas as pd
-file_path=r"C:\Users\Pramit\Downloads\cmecat.txt"
-rel=duckdb.read_text(file_path)
-pd_df=pd.DataFrame(rel)
-duckdb.sql('SELECT * FROM pd_df')
+from geopy.geocoders import Nominatim
+
+geolocator = Nominatim(user_agent="tourism_project")
+
+location = geolocator.geocode("Victoria Memorial, Kolkata")
+
+print(location.latitude)
+print(location.longitude)

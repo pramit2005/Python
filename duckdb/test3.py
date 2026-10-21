@@ -1,6 +1,14 @@
 import duckdb
-con=duckdb.connect('a.db')
-con.execute("CREATE TABLE test( name CHAR,age INTEGER)")
-con.execute("INSERT INTO test VALUES('Pramit',20)")
-con.table("test").show()
-con.close()
+con=duckdb.connect(database=":memory:")
+query=r"""
+    SELECT Hospital_Name,
+    Location
+    Location_Coordinates,
+    District,
+    Pincode,
+    Telephone
+    FROM read_csv_auto("D:\Datasets\hospital_directory.csv")
+    WHERE District='Kolkata'
+    """
+a=con.execute(query).df()
+print(a.info())
